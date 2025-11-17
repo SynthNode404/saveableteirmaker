@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF--8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini Tier List Maker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'gray-900': '#1a1a1a',
+              'gray-800': '#2a2a2a',
+              'gray-700': '#3a3a3a',
+              'gray-600': '#4a4a4a',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@dnd-kit/core": "https://aistudiocdn.com/@dnd-kit/core@^6.3.1",
+    "@dnd-kit/sortable": "https://aistudiocdn.com/@dnd-kit/sortable@^10.0.0",
+    "@dnd-kit/utilities": "https://aistudiocdn.com/@dnd-kit/utilities@^3.2.2"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900 text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

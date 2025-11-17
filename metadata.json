@@ -1,0 +1,5 @@
+{
+  "name": "Savable Tier List Maker",
+  "description": "A fully customizable tier list maker application. Add rows, change colors, edit labels, and drag-and-drop images to create your perfect tier list. Images can be imported individually or in bulk.",
+  "requestFramePermissions": []
+}
